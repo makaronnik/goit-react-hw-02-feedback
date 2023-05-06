@@ -27,7 +27,7 @@ export class Feedback extends Component {
         <Button onButtonClick={this.onGoodFeedback}>Good</Button>
         <Button onButtonClick={this.onNeutralFeedback}>Neutral</Button>
         <Button onButtonClick={this.onBadFeedback}>Bad</Button>
-        <h1>Statistics</h1>
+        <h2>Statistics</h2>
         <Statistics statistic={this.state}></Statistics>
       </FeedbackStyled>
     );
