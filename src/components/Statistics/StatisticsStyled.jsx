@@ -1,8 +1,9 @@
 import styled from 'styled-components';
 
 const StatisticsStyled = styled.ul`
-  list-style: none;
   padding-left: 0;
+
+  list-style: none;
 
   & li {
     font-size: 18px;
