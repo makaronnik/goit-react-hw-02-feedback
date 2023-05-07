@@ -5,9 +5,12 @@ const StatisticsStyled = styled.ul`
   padding-left: 0;
 
   & li {
-    text-transform: capitalize;
     font-size: 18px;
     font-weight: 600;
+
+    &:first-letter {
+      text-transform: uppercase;
+    }
 
     &:not(:last-child) {
       margin-bottom: 5px;
